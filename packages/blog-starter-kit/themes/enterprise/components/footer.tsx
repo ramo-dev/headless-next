@@ -35,6 +35,7 @@ export const Footer = () => {
 									<a href="https://www.annuar.site/contact" className="hover:underline">
 										Send me a Text
 									</a>
+									<br />
 									<a href="mailto:hello@annuar.site" className="hover:underline">
 										Mail Me
 									</a>
