@@ -52,7 +52,7 @@ export const Header = () => {
 
 						<DropdownMenu.Portal>
 							<DropdownMenu.Content
-								className="w-48 rounded border border-gray-300 bg-white text-neutral-950 shadow-md dark:border-neutral-800 dark:bg-neutral-900 dark:text-white"
+								className="w-48 rounded border border-gray-300 bg-white text-neutral-950 shadow-md dark:border-zinc-800 dark:bg-zinc-900 dark:text-white"
 								align="end"
 								sideOffset={5}
 							>
@@ -77,7 +77,7 @@ export const Header = () => {
 	);
 
 	return (
-		<header className="border-b bg-slate-950 py-10 dark:border-neutral-800 dark:bg-neutral-900">
+		<header className="border-b bg-zinc-950 py-4 dark:border-zinc-800 dark:bg-zinc-900 md:px-10">
 			<Container className="grid grid-cols-4 gap-5 px-5">
 				<div className="col-span-2 flex flex-1 flex-row items-center gap-2 lg:col-span-1">
 					<div className="lg:hidden">
@@ -99,12 +99,11 @@ export const Header = () => {
 				</div>
 				<div className="col-span-2 flex flex-row items-center justify-end gap-5 text-slate-300 lg:col-span-3">
 					<nav className="hidden lg:block">{navList}</nav>
-					<Button href={baseUrl} as="a" type="primary" label="Book a demo" />
+					
+					<Button href={baseUrl} as="a" type="primary" className="rounded-lg" label="Talk to me" />
 				</div>
 			</Container>
-			<div className="mt-5 flex justify-center lg:hidden">
-				<PublicationLogo />
-			</div>
+			
 		</header>
 	);
 };
