@@ -99,11 +99,12 @@ export const Header = () => {
 				</div>
 				<div className="col-span-2 flex flex-row items-center justify-end gap-5 text-slate-300 lg:col-span-3">
 					<nav className="hidden lg:block">{navList}</nav>
-					
-					<Button href="/" as="a" type="primary" className="rounded-lg" label="Talk to me" />
+
+					<a href="https://www.annuar.site/contact">
+						<Button as="a" type="primary" className="rounded-lg" label="Talk to me" />
+					</a>
 				</div>
 			</Container>
-			
 		</header>
 	);
 };
