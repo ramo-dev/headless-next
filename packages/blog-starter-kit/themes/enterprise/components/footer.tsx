@@ -32,72 +32,34 @@ export const Footer = () => {
 							</p>
 							<ul className="flex flex-col gap-1 text-slate-700 dark:text-neutral-300">
 								<li>
-									<a href="#" className="hover:underline">
-										Contact us
+									<a href="https://www.annuar.site/contact" className="hover:underline">
+										Send me a Text
+									</a>
+									<a href="mailto:hello@annuar.site" className="hover:underline">
+										Mail Me
 									</a>
 								</li>
-								<li>
-									<a href="#" className="hover:underline">
-										Book a demo
-									</a>
-								</li>
+								
 								<li>
 									<a href="#" className="hover:underline">
 										Newsletter
 									</a>
 								</li>
-								<li>
-									<a href="#" className="hover:underline">
-										Slack
-									</a>
-								</li>
+								
 							</ul>
 						</div>
 						<div className="col-span-full md:col-span-2 lg:col-span-1">
 							<p className="mb-2 font-semibold text-slate-600 dark:text-neutral-200">Resources</p>
-							<ul className="flex flex-col gap-1 text-slate-700 dark:text-neutral-300">
-								<li>
-									<a href="#" className="hover:underline">
-										Community
+							<a href="https://www.github.com/ramo-dev" className="hover:underline">
+										Github
 									</a>
-								</li>
-								<li>
-									<a href="#" className="hover:underline">
-										Use Cases
-									</a>
-								</li>
-								<li>
-									<a href="#" className="hover:underline">
-										Source Code
-									</a>
-								</li>
-								<li>
-									<a href="#" className="hover:underline">
-										Blog
-									</a>
-								</li>
-							</ul>
 						</div>
 						<div className="col-span-full md:col-span-2 lg:col-span-1">
 							<p className="mb-2 font-semibold text-slate-600 dark:text-neutral-200">Product</p>
 							<ul className="flex flex-col gap-1 text-slate-700 dark:text-neutral-300">
+								
 								<li>
-									<a href="#" className="hover:underline">
-										Pricing
-									</a>
-								</li>
-								<li>
-									<a href="#" className="hover:underline">
-										Documentation
-									</a>
-								</li>
-								<li>
-									<a href="#" className="hover:underline">
-										Integrations
-									</a>
-								</li>
-								<li>
-									<a href="#" className="hover:underline">
+									<a href="mailto:hello@annuar.site" className="hover:underline">
 										Support
 									</a>
 								</li>
@@ -111,19 +73,10 @@ export const Footer = () => {
 										Events
 									</a>
 								</li>
+								
 								<li>
-									<a href="#" className="hover:underline">
-										Careers
-									</a>
-								</li>
-								<li>
-									<a href="#" className="hover:underline">
-										Newsroom
-									</a>
-								</li>
-								<li>
-									<a href="#" className="hover:underline">
-										About us
+									<a href="https://www.annuar.site" className="hover:underline">
+										About me
 									</a>
 								</li>
 							</ul>
@@ -131,16 +84,7 @@ export const Footer = () => {
 					</div>
 					<div className="col-span-2 flex flex-col items-end gap-5 text-right text-slate-600 dark:text-neutral-300 md:text-left">
 						<SocialLinks />
-						<p>&copy; 2023 Company Inc.</p>
-						<p>
-							<a href="#" className="hover:underline">
-								Privacy Policy
-							</a>{' '}
-							·{' '}
-							<a href="#" className="hover:underline">
-								Terms
-							</a>
-						</p>
+						<p>&copy; {new Date().getFullYear()} Company Inc.</p>
 					</div>
 				</div>
 			</Container>
