@@ -43,7 +43,7 @@ export const Header = (props: Props) => {
             )}
           >
             <HeaderBlogSearch publication={publication} />
-            <Button as="a" href="www.annuar.site/contact" type="primary" label="Contact" />
+            <Button as="a" href="mailto:annuar.dev@gmail.com" type="primary" label="Contact" />
           </div>
         </div>
 
