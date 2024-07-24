@@ -63,8 +63,7 @@ const PostPageNavbar = forwardRef<HTMLElement, Props>((props, ref) => {
           )}
         >
           <HeaderBlogSearch publication={publication} />
-          <Button as="a" href="#" type="primary" label="Sign up" />
-        </div>
+          <Button as="a" href="mailto:annuar.dev@gmail.com" type="primary" label="Contact" />        </div>
       </div>
 
       {/* Logo for mobile view */}
